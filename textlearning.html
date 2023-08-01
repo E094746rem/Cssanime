@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>text fun</title>
+  </head>
+  <body>
+    <p>
+      what do you mean by saying
+      <abbr title="Hyper Text Markup Language" style="text-decoration: none"
+        >HTML</abbr
+      >
+    </p>
+    <sup>superscript here</sup>
+    <sub>subscript here</sub>
+    <a href="http://example.com/" rel="external">example site</a>
+    <a
+      href="mailto:example@example.com?cc=john@example.com&bcc=jane@example.com"
+      >Send email</a
+    >
+    <ol>
+      <li>Item</li>
+      <li>Another Item</li>
+      <li>Yet Another Item</li>
+    </ol>
+    <ol start="3">
+      <li>Item</li>
+      <li>Some Other Item</li>
+      <li>Yet Another Item</li>
+    </ol>
+    <ol start="5">
+      <li>Item</li>
+      <li>Some Other Item</li>
+      <li value="4">A Reset Item</li>
+      <li>Another Item</li>
+      <li>Yet Another Item</li>
+    </ol>
+    <dl>
+      <dt>name 1</dt>
+      <dd>value for 1</dd>
+      <dt>name 2</dt>
+      <dd>value for 2</dd>
+    </dl>
+    <dl>
+      <dt>name 1</dt>
+      <dt>name 2</dt>
+      <dd>value for 1 and 2</dd>
+      <dt>name 3</dt>
+      <dd>value for 3</dd>
+      <dd>value for 3</dd>
+    </dl>
+    <table>
+      <tr>
+        <th>Heading 1/Column 1</th>
+        <th>Heading 2/Column 2</th>
+      </tr>
+      <tr>
+        <td>Row 1 Data Column 1</td>
+        <td>Row 1 Data Column 2</td>
+      </tr>
+      <tr>
+        <td>Row 2 Data Column 1</td>
+        <td>Row 2 Data Column 2</td>
+      </tr>
+    </table>
+    <table style="border: 2px saddlebrown solid">
+      <tr>
+        <td>row 1 col 1</td>
+        <td>row 1 col 2</td>
+        <td>row 1 col 3</td>
+      </tr>
+      <tr>
+        <td colspan="3">This second row spans all three columns</td>
+      </tr>
+      <tr>
+        <td rowspan="2">This cell spans two rows</td>
+        <td>row 3 col 2</td>
+        <td>row 3 col 3</td>
+      </tr>
+      <tr>
+        <td>row 4 col 2</td>
+        <td>row 4 col 3</td>
+      </tr>
+    </table>
+    <table>
+      <caption>
+        Table Title
+      </caption>
+      <!--| caption is the first child of table |-->
+      <thead>
+        <!--======================| thead is after caption |-->
+        <tr>
+          <th>Header content 1</th>
+          <th>Header content 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!--======================| tbody is after thead |-->
+        <tr>
+          <td>Body content 1</td>
+          <td>Body content 2</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <!--| tfoot can be placed before or after tbody, but not in a group of tbody. |-->
+        <!--| Regardless where tfoot is in markup, it is rendered at the bottom. |-->
+
+        <tr>
+          <td>Footer content 1</td>
+          <td>Footer content 2</td>
+        </tr>
+      </tfoot>
+    </table>
+    <a href="#">I hope there will be no extra whitespace after this!</a
+    ><!--
+--><button>Foo</button>
+  </body>
+</html>

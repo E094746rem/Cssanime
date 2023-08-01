@@ -1,0 +1,47 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>E-main </title>
+    </head>
+    <body>
+        <!-- email submit-->
+            <label for="mail">Please Use a Udemy.com email:</label>
+            <!-- Remember: the pattern can take REGEX. Google it. -->
+        <input id="mail" type="email"  placeholder="Efa@Udemy.com" pattern="+@Udemy/.com" required>
+        <input type="submit" value="Sign in">
+    <br>
+    <!-- range form-->
+    <form>
+    <label for="rag">Volume</label>
+    <input id="rag" type="range" max="100" min="0"
+    step="20" value="20" >
+    <input type="submit">
+    </form>
+    <!-- radio form-->
+    <h1>How was your time at Happy Place?</h1>
+    <form>
+        
+    <input type="radio" id="bad" name="experience" value="bad">
+    <label for="bad">Bad</label>
+    <input type="radio" id="good" name="experience" value="good">
+    <label for="good">GOOD</label>
+    <input type="radio" id="OK" name="experience" value="okay" checked>
+    <label for="OK">OK</label>
+    <input type="submit" id="sab">
+
+    </form>
+    <br>
+    <!-- select form-->
+    <label for="Selection">Select you Size</label>
+    <select id="Selection" name="size">
+      <option value="">---Please Select Your Size---</option>  
+    <option value="Small">Small</option>
+    <option value="Middim">Middim</option>
+    <option value="Large">Large</option>
+    <option value="Extra Large">Extra Large</option>
+    </select>
+    </body>
+    </html>
